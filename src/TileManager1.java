@@ -1,4 +1,4 @@
-class TileManager {
+class  TileManager {
     private int width;
     private int height;
 

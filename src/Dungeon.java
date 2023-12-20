@@ -7,6 +7,9 @@ public class Dungeon {
     private final int width;
     private final TileManager tileManager;
     private Things[] thingsArray; // Utilisation d'un tableau dynamique
+    public Things[] getThingsArray() {
+        return thingsArray;
+    }
 
     // Constructeur
     public Dungeon(int height, int width, TileManager tileManager) {
@@ -106,5 +109,11 @@ public class Dungeon {
 
         // Créer un Dungeon avec une hauteur et une largeur de 10x10 tuiles
         Dungeon dungeon = new Dungeon(10, 10, tileManager);
+
+        Hero hero1 = Hero.getInstance(10.0, 20.0, 30, 40);
+        Hero hero2 = Hero.getInstance(50.0, 60.0, 70, 80);
+
+// hero1 et hero2 référencent la même instance de Hero
+        System.out.println(hero1 == hero2); // Cela devrait imprimer "true"
     }
 }
