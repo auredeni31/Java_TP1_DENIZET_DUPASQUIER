@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5953da8-091c-4052-b81e-b78a62119e49" name="Changes" comment="Second first commit">
-      <change afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dungeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimatedThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedThings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DynamicThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolidThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolidThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Things.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Things.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TileManager1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TileManager1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703080040985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second first commit">
+      <created>1703085827275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703085827275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

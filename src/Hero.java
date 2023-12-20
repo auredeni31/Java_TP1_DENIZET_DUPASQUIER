@@ -9,7 +9,7 @@ public class Hero extends DynamicThings {
         if (instance == null) {
             synchronized (Hero.class) {
                 if (instance == null) {
-                    instance = new Hero(x, y, width, height);
+                    instance = new Hero(x, y, (double) width, (double) height); // Conversion int en double
                 }
             }
         }
